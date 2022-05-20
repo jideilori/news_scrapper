@@ -22,7 +22,7 @@ class QuotesToCsv(scrapy.Spider):
     Maynerd James Keenan and save to json file"""
     name = "punchspider"
    
-    start_urls=all_news_links[:100]
+    start_urls=all_news_links[:1001]
     custom_settings = {
         'LOG_LEVEL': logging.WARNING,
         'AUTOTHROTTLE_ENABLED': True,
